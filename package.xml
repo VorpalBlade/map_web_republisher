@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>map_web_republisher</name>
+  <version>0.0.1</version>
+  <description>Republish ROS occupancy grid map as png over the web</description>
+
+  <author email="VorpalBlade@users.noreply.github.com">Arvid Norlander</author>
+  <maintainer email="VorpalBlade@users.noreply.github.com">Arvid Norlander</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>message_generation</build_depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+</package>
